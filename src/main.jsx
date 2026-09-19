@@ -84,9 +84,9 @@ const projects = [
 const achievements = [
   {
     title: "NFSU Cyber Security Entrance",
-    value: "Rank 75",
+    value: "All India Rank 75",
     description:
-      "Secured Rank 75 in the NFSU Cyber Security Entrance Examination.",
+      "Secured All India Rank 75 in the NFSU Cyber Security Entrance Examination.Their are 31,274 students appear for this exam.",
     icon: Trophy,
     type: "Entrance Achievement",
     accent: "violet",
@@ -170,7 +170,7 @@ function App() {
           ].map((item) => (
             <a
               key={item}
-              href={`#${ item.toLowerCase() } `}
+              href={`#${item.toLowerCase()} `}
               onClick={close}
             >
               {item}
@@ -199,11 +199,13 @@ function App() {
       <main>
 
         {/* ================================
-            HERO
-        ================================= */}
+    HERO
+================================= */}
 
         <section id="home" className="hero section">
+
           <div className="hero-copy reveal">
+
             <div className="eyebrow">
               <span className="pulse" />
               Available for learning & opportunities
@@ -230,6 +232,7 @@ function App() {
             </div>
 
             <div className="social-row">
+
               <a
                 href={profile.linkedin}
                 target="_blank"
@@ -252,14 +255,34 @@ function App() {
                 <MapPin size={17} />
                 {profile.location}
               </span>
+
             </div>
+
           </div>
 
+
+          {/* HERO RIGHT SIDE */}
+
           <div className="hero-art reveal delay">
+
             <div className="orb orb-one" />
             <div className="orb orb-two" />
 
+
+            {/* PROFILE PHOTO */}
+
+            <div className="profile-photo-card">
+              <img
+                src="/Deep Profile.jpeg"
+                alt="Deep Raval"
+              />
+            </div>
+
+
+            {/* CODE CARD */}
+
             <div className="code-card">
+
               <div className="window-bar">
                 <i />
                 <i />
@@ -298,7 +321,11 @@ function App() {
                   {"}"}
                 </code>
               </pre>
+
             </div>
+
+
+            {/* FLOATING CHIPS */}
 
             <div className="floating-chip chip-one">
               <Code2 size={16} />
@@ -309,12 +336,17 @@ function App() {
               <Sparkles size={16} />
               Problem Solver
             </div>
+
           </div>
+
+
+          {/* SCROLL */}
 
           <a className="scroll-cue" href="#about">
             <span>Scroll to explore</span>
             <ChevronDown size={18} />
           </a>
+
         </section>
 
         {/* ================================
@@ -428,7 +460,7 @@ function App() {
           <div className="projects-grid">
             {projects.map((p, i) => (
               <article
-                className={`project - card ${ p.accent } `}
+                className={`project - card ${p.accent} `}
                 key={p.title}
               >
                 <div className="project-top">
@@ -519,7 +551,7 @@ function App() {
 
               return (
                 <article
-                  className={`achievement - card ${ achievement.accent } `}
+                  className={`achievement - card ${achievement.accent} `}
                   key={achievement.title}
                 >
                   <div className="achievement-card-top">
@@ -565,7 +597,7 @@ function App() {
 
               <div className="badge-count">
                 <Award size={18} />
-                <span>3 Badges</span>
+                <span>2 Badges</span>
               </div>
             </div>
 
@@ -581,6 +613,7 @@ function App() {
                 <div>
                   <strong>Generative AI</strong>
                   <span>Oracle Certified</span>
+                  <img src="/Oracle Badge 1.jpeg" alt="Oracle Badge" />
                 </div>
               </div>
 
@@ -594,6 +627,7 @@ function App() {
                 <div>
                   <strong>Database Management</strong>
                   <span>Oracle Certified</span>
+                  <img src="/Oracle Badge 2.jpeg" alt="Oracle Badge" />
                 </div>
               </div>
 
@@ -675,7 +709,7 @@ function App() {
             <div className="contact-actions">
               <a
                 className="btn primary big"
-                href={`mailto:${ profile.email } `}
+                href={`mailto:${profile.email} `}
               >
                 <Mail size={19} />
                 {profile.email}
