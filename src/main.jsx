@@ -649,39 +649,116 @@ function App() {
         </section>
 
         {/* ================================
-            EDUCATION
-        ================================= */}
+EDUCATION
+================================= */}
 
         <section id="education" className="section education">
+
           <div className="section-label">
             05 — Education
           </div>
 
-          <div className="education-card">
-            <div className="edu-icon">
-              <GraduationCap size={30} />
-            </div>
+          <div className="section-heading">
+            <h2>
+              Education &
+              <br />
+              <em>academic journey.</em>
+            </h2>
 
-            <div>
-              <span className="kicker">Current</span>
+            ```
+            <p>
+              My academic journey from undergraduate application development
+              to postgraduate specialization in Data Science.
+            </p>
+            ```
 
-              <h2>
-                Master of Science in Information Technology
-              </h2>
-
-              <p>
-                School of Computer Science · Semester 1
-              </p>
-            </div>
-
-            <div className="edu-line" />
-
-            <div className="edu-note">
-              Focused on software development, databases, data science
-              and modern computing.
-            </div>
           </div>
+
+          <div className="education-list">
+
+            ```
+            {/* MSc IT */}
+
+            <div className="education-card current-education">
+
+              <div className="edu-icon">
+                <GraduationCap size={30} />
+              </div>
+
+              <div className="edu-content">
+
+                <span className="kicker">Currently Pursuing · 2026–2028</span>
+
+                <h2>
+                  Master of Science in Information Technology
+                </h2>
+
+                <p className="university">
+                  SKIPS University
+                </p>
+
+                <p>
+                  Specialization in <strong>Data Science</strong>
+                </p>
+
+                <div className="edu-tags">
+                  <span>Data Science</span>
+                  <span>MSc IT</span>
+                  <span>2026–2028</span>
+                </div>
+
+              </div>
+
+              <div className="edu-status">
+                Current
+              </div>
+
+            </div>
+
+
+            {/* BCA */}
+
+            <div className="education-card completed-education">
+
+              <div className="edu-icon">
+                <GraduationCap size={30} />
+              </div>
+
+              <div className="edu-content">
+
+                <span className="kicker">Completed · 2023–2026</span>
+
+                <h2>
+                  Bachelor of Computer Applications
+                </h2>
+
+                <p className="university">
+                  Silver Oak University
+                </p>
+
+                <p>
+                  Completed undergraduate studies in Computer Applications.
+                </p>
+
+                <div className="edu-tags">
+                  <span>BCA</span>
+                  <span>CGPA 8.73</span>
+                  <span>2023–2026</span>
+                </div>
+
+              </div>
+
+              <div className="edu-status">
+                Completed
+              </div>
+
+            </div>
+            ```
+
+          </div>
+
         </section>
+
 
         {/* ================================
             CONTACT
