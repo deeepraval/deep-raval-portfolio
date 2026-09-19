@@ -529,11 +529,11 @@ function App() {
 
               <h3>NFSU Cyber Security Entrance</h3>
 
-              <strong>Rank 75</strong>
+              <strong>All India Rank 75</strong>
 
               <p>
-                Secured Rank 75 in the NFSU Cyber Security Entrance
-                Examination.
+                Secured All India Rank 75 in the NFSU Cyber Security Entrance
+                Examination.Thier are 31,274 Students who appeared for the exam.
               </p>
             </div>
 
