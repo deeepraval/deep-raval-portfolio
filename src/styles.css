@@ -445,3 +445,31 @@ footer { max-width: var(--max); margin: auto; padding: 25px 24px 40px; border-to
   object-fit: cover;
   display: block;
 }
+
+.oracle-badge {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 18px;
+  border-radius: 18px;
+}
+
+.oracle-badge > div:last-child {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.oracle-badge img {
+  width: 65px;
+  height: 65px;
+  object-fit: contain;
+  margin-top: 8px;
+  border-radius: 10px;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.oracle-badge:hover img {
+  transform: scale(1.08);
+}

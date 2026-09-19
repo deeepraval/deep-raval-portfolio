@@ -591,7 +591,7 @@ function App() {
                 </span>
 
                 <h3>
-                  Three badges. One continuous learning journey.
+                  Two badges. One continuous learning journey.
                 </h3>
               </div>
 
