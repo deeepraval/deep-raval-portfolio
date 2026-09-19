@@ -8,13 +8,13 @@
   font-synthesis: none;
   text-rendering: optimizeLegibility;
 
-  --bg: #08090f;
-  --panel: #10111a;
-  --text: #eef0ff;
-  --muted: #999cab;
-  --line: rgba(255, 255, 255, 0.1);
-  --accent: #a98bff;
-  --accent2: #66e3ff;
+  --bg: #07111f;
+  --panel: #0d1a2b;
+  --text: #f4f7ff;
+  --muted: #a8b3c7;
+  --line: rgba(148, 163, 184, 0.16);
+  --accent: #7c8cff;
+  --accent2: #4fd8ff;
   --max: 1180px;
 }
 
@@ -47,7 +47,7 @@ button {
   background:
     radial-gradient(
       circle at 80% 10%,
-      rgba(125, 82, 255, 0.08),
+      rgba(79, 216, 255, 0.08),
       transparent 25%
     ),
     var(--bg);
@@ -118,12 +118,12 @@ button {
 
   border-radius: 10px;
 
-  background: linear-gradient(135deg, #a98bff, #5c65ff);
+  background: linear-gradient(135deg, #6d7cff, #42c8ff);
 
   color: white;
   font-size: 12px;
 
-  box-shadow: 0 7px 25px rgba(121, 93, 255, 0.25);
+  box-shadow: 0 7px 25px rgba(66, 200, 255, 0.22);
 }
 
 .nav-links {
@@ -234,7 +234,7 @@ h1 span,
 em {
   font-style: normal;
 
-  background: linear-gradient(90deg, #bfa9ff, #67dcff);
+  background: linear-gradient(90deg, #8b9aff, #5de0ff);
 
   -webkit-background-clip: text;
   background-clip: text;
@@ -332,7 +332,7 @@ em {
 ================================ */
 
 .hero-art {
-  height: 510px;
+  height: 560px;
 
   position: relative;
 
@@ -356,7 +356,7 @@ em {
   background:
     radial-gradient(
       circle,
-      rgba(133, 89, 255, 0.32),
+      rgba(99, 102, 241, 0.30),
       rgba(133, 89, 255, 0) 68%
     );
 }
@@ -368,7 +368,7 @@ em {
   background:
     radial-gradient(
       circle,
-      rgba(72, 216, 255, 0.19),
+      rgba(45, 212, 191, 0.18),
       transparent 67%
     );
 
@@ -382,11 +382,11 @@ em {
 .profile-photo-card {
   position: absolute;
 
-  top: 35px;
-  right: 35px;
+  top: 15px;
+  right: 15px;
 
-  width: 210px;
-  height: 260px;
+  width: 270px;
+  height: 340px;
 
   border-radius: 24px;
 
@@ -400,7 +400,7 @@ em {
 
   box-shadow:
     0 25px 60px rgba(0, 0, 0, 0.35),
-    0 0 50px rgba(169, 139, 255, 0.08);
+    0 0 50px rgba(124, 140, 255, 0.10);
 }
 
 .profile-photo-card img {
@@ -721,9 +721,11 @@ h2 {
       rgba(255, 255, 255, 0.012)
     );
 
-  border-radius: 15px;
+  border-radius: 18px;
 
-  min-height: 180px;
+  min-height: 190px;
+
+  box-shadow: 0 14px 40px rgba(0, 0, 0, 0.16);
 
   transition: 0.25s;
 }
@@ -731,7 +733,7 @@ h2 {
 .skill-card:hover {
   transform: translateY(-5px);
 
-  border-color: rgba(169, 139, 255, 0.38);
+  border-color: rgba(93, 224, 255, 0.38);
 }
 
 .icon-box {
@@ -793,11 +795,13 @@ h2 {
 .project-card {
   border: 1px solid var(--line);
 
-  border-radius: 17px;
+  border-radius: 20px;
 
   overflow: hidden;
 
-  background: #0d0e16;
+  background: #0a1728;
+
+  box-shadow: 0 18px 50px rgba(0, 0, 0, 0.20);
 
   transition: 0.3s;
 }
@@ -1415,7 +1419,7 @@ h2 {
 
   background: linear-gradient(
     to bottom,
-    rgba(169, 139, 255, 0.5),
+    rgba(124, 140, 255, 0.50),
     rgba(102, 227, 255, 0.15)
   );
 }
@@ -1440,7 +1444,7 @@ h2 {
   background:
     linear-gradient(
       120deg,
-      rgba(169, 139, 255, 0.08),
+      rgba(124, 140, 255, 0.10),
       rgba(255, 255, 255, 0.018) 55%
     );
 
@@ -1454,12 +1458,12 @@ h2 {
 .education-card:hover {
   transform: translateY(-4px);
 
-  border-color: rgba(169, 139, 255, 0.3);
+  border-color: rgba(93, 224, 255, 0.30);
 
   background:
     linear-gradient(
       120deg,
-      rgba(169, 139, 255, 0.11),
+      rgba(124, 140, 255, 0.12),
       rgba(255, 255, 255, 0.025) 55%
     );
 }
@@ -1477,8 +1481,8 @@ h2 {
   background:
     linear-gradient(
       135deg,
-      rgba(169, 139, 255, 0.18),
-      rgba(102, 227, 255, 0.08)
+      rgba(124, 140, 255, 0.18),
+      rgba(79, 216, 255, 0.08)
     );
 
   color: #bba6ff;
@@ -1571,9 +1575,9 @@ h2 {
 
   color: #c9c1ff;
 
-  background: rgba(169, 139, 255, 0.09);
+  background: rgba(124, 140, 255, 0.09);
 
-  border: 1px solid rgba(169, 139, 255, 0.18);
+  border: 1px solid rgba(124, 140, 255, 0.18);
 }
 
 .completed-education .edu-status {
@@ -1595,9 +1599,9 @@ h2 {
 .contact-panel {
   border: 1px solid var(--line);
 
-  border-radius: 22px;
+  border-radius: 26px;
 
-  padding: 65px;
+  padding: 70px;
 
   display: grid;
 
@@ -1608,7 +1612,7 @@ h2 {
   background:
     radial-gradient(
       circle at 10% 20%,
-      rgba(169, 139, 255, 0.16),
+      rgba(79, 216, 255, 0.14),
       transparent 40%
     ),
     linear-gradient(
@@ -1895,9 +1899,9 @@ footer {
   /* Profile photo */
 
   .profile-photo-card {
-    width: 145px;
+    width: 175px;
 
-    height: 185px;
+    height: 220px;
 
     top: 5px;
 
@@ -2027,5 +2031,69 @@ footer {
     gap: 18px;
 
     align-items: flex-start;
+  }
+}
+
+/* ================================
+   PREMIUM UI POLISH
+================================ */
+
+.btn,
+.nav-cta,
+.skill-card,
+.project-card,
+.achievement-card,
+.education-card,
+.oracle-badge,
+.profile-photo-card {
+  will-change: transform;
+}
+
+.btn:focus-visible,
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid var(--accent2);
+  outline-offset: 4px;
+}
+
+.primary:hover {
+  box-shadow: 0 12px 32px rgba(79, 216, 255, 0.18);
+}
+
+.secondary:hover,
+.nav-cta:hover {
+  border-color: rgba(79, 216, 255, 0.28);
+  background: rgba(79, 216, 255, 0.06);
+}
+
+.profile-photo-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(
+    135deg,
+    rgba(255,255,255,0.10),
+    transparent 35%,
+    rgba(79,216,255,0.06)
+  );
+}
+
+@media (max-width: 850px) {
+  .hero-art {
+    height: 470px;
+  }
+}
+
+@media (max-width: 560px) {
+  .hero-art {
+    height: 370px;
+  }
+
+  .profile-photo-card {
+    width: 175px;
+    height: 220px;
+    top: 0;
+    right: 4px;
   }
 }
